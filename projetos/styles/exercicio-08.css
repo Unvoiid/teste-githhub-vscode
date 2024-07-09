@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 120px;
+    background-color: #fff;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.logo {
+    flex: 20%;
+    padding: 0px 5%;
+    /* border: 1px solid black; */
+    text-align: right;
+    /* border: 1px solid black; */
+}
+
+.logo h1 {
+    color: #FF2978;
+    font-family: "Lobster", sans-serif;
+    font-size: 30px;
+    text-align: left;
+    align-items: center;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding-right: 10%;
+    color: #180F4A;
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 24px;
+    padding: 3%;
+
+}
+
+.menu a:hover {
+    color: #FF2978;
+    border-top: 3px solid #180F4A;
+}
+
+.hotline {
+    height: 450px;
+    /* background-color: darkslategray; */
+    flex: 50%;
+    flex-flow: row wrap;
+    display: flex;
+}
+
+.description-hotline {
+    flex: 50%;
+    padding: 5% 10%;
+    text-align: left;
+}
+
+.description-hotline h2 {
+    font-size: 32px;
+    color: #FF2978;
+    font-family: "Lobster", sans-serif;
+    letter-spacing: 5px;    
+}
+
+.description-hotline p {
+    padding-bottom: 15px;
+}
+
+.img-hotline {
+    flex: 50%;
+    text-align: right;
+    padding: 5% 10%;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+
+.img-hotline img {
+    border-radius: 50%;
+    width: 70%;
+}
+
+.btn-hotline a {
+    text-decoration: none;
+    font-size: 24px;
+    background-color: #180F4A;
+    border-radius: 30px;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.btn-hotline a:hover {
+    background-color: #FF2978;
+}
+

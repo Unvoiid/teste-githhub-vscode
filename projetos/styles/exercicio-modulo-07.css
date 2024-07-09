@@ -1,0 +1,49 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+    border: 2px black solid;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 40px;
+    width: 50%;
+}
+
+table th,
+table td {
+    text-align: center;
+}
+
+table td {
+    border: 2px black solid;
+    font-size: 1.6rem;
+}
+
+table thead {
+    background-color: blue;
+    font-size: 2rem;
+    width: 100%;
+    column-span: 2;
+    color: #fff;
+}
+table thead th {
+    margin-left: 16px;
+    border-left: 2px #fff solid;
+}
+
+.container-2 {
+    background-color: 	#bebbbbda;
+    font-weight: bold;
+}
+
+#product-b td {
+    background-color: 	#bebbbbda;
+    font-weight: bold;
+}
+
+tfoot {
+    font-weight: bold;
+}
+

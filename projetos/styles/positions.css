@@ -1,0 +1,28 @@
+div {
+    height: 50px;
+    border: 1px solid #222;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+/* Relative */
+.relative {
+    background-color: #321;
+    position: relative;
+    color: #fff;
+}
+
+.relative-alterada {
+    left: 10px;
+    top: 25px;
+}
+
+/* Absolute */
+.absolute {
+    height: 25px;
+    width: 70px;
+    position: absolute;
+    background-color: #914;
+    top: 20px;
+    left: 20px;
+}
